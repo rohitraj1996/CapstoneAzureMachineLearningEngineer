@@ -47,8 +47,8 @@ As this dataset was very easy for algorithm to learn patterns so by giving more 
 - Below is the image of screenshot of RunDetails widget.
 ![RunDetails Widget](./screenshots/automl_rundetails.png)
 
-- Below is the screenshot of hyperparameters of best model of AutoML.
-![Parameter of best AutoML model](./screenshots/automl_runid_best_model_config.png)
+- Below is the screenshot of hyperparameters of best model, run id and sucessfully register model of AutoML.
+![Parameter of best AutoML model](./screenshots/automl_model_register_and_config.png)
 
 ## Hyperparameter Tuning
 I used sklearn logistic regression because the task was to solve a classification problem i.e. to predict class/species of iris plant. I choosed "C" and "max_iter" hyper-parameters of the logistic regression algorithm for optimisation. 
@@ -69,7 +69,7 @@ In this case there is no improvement needed as it already has best result.
 - Below is the image of RunDetails widget.
 ![HyperDrive RunDetails widget](./screenshots/hyperdrive_rundetails.png)
 
-- Below is the parameters of best model.
+- Below is the hyperparameters, run id and successfully registered model of Hyperdrive's best model.
 ![Parameters of hyperdrive's best model](./screenshots/hyperdrive_runid_configs.png)
 
 ## Model Deployment
